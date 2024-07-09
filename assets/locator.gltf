@@ -1,0 +1,95 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Circle001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.0015216050669550896,
+                0.0015216050669550896,
+                0.0015216050669550896
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0
+                            }
+                        }
+                    },
+                    "indices" : 1,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 56,
+            "max" : [
+                50.990196228027344,
+                5.89968931308249e-06,
+                100.48037719726562
+            ],
+            "min" : [
+                -50.990196228027344,
+                0,
+                -50.990196228027344
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 168,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 366,
+            "byteOffset" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 368,
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAODgAOAEBNzcBFV/XdV3Xteu6ruu6dV3XdV27ruu6Lv8BEQH/AAEBAAkDAAACBAEBAA8nlQQlId0WSQIlAQ0fwiDNw2bMiZJW+r+wshYAYLHGWgAAAHguAGAluACAepEAgCXrBwAC3wgAAu8vAKCBPQIAuyg8AGCTHwMA9QlEACClvwMALwtIAMC2HQQAawxIAKDILAkAE/1HAKDIHgQAa/xHAMC2wAMAL/tDACClIAMA9Rk8AGCTPgIAu9gvAKCBHAFA4PMDAIEfAQBLvgUA1JsIAKwyEwCYaRkAYNnZAKCY1gCAUVsFgBq6BwDYLByAwskFACPWEACtsh0AxosJgNmQEQC0mikAMvGdAEASNAVAJsYIAFoZEwCzqR0Axm0IgFaNCwBGNByAwtsDAGy6CgA1rAYAjEobABQTNPEE0Hi1RwKAAoBwAAAAAAAA/z8AAPb1S8IAAAAA9vVLwnh4F0MOAAA="
+        }
+    ]
+}

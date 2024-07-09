@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hargita House 360</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="shortcut icon" href="#">
+	</head>
+	<body>
+		<div id="page-screen">
+			<div id="top-panel">
+				<img src="./assets/day.png" alt="Day" id="day" />
+				<img src="./assets/night.png" alt="Night" id="night" />
+			</div>
+			<div id="bottom-panel">
+				<img src="./assets/vr.png" alt="VR" id="vr" />
+				<img src="./assets/fullscreen.png" alt="Fullscreen" id="fullscreen" />
+			</div>
+			<div id="house-name">
+				<p id="house-name-text">. HARGITA</p>
+				<p id="house-place-text">/ Living Room</p>
+			</div>
+		</div>
+		<script type="importmap">
+			{
+				"imports": {
+				"three": "./threejs/build/three.module.js"
+				}
+			}
+		</script>
+        <script src="app.js" type="module"/>
+	</body>
+</html>
