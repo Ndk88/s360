@@ -1,16 +1,10 @@
-console.log('before imports');
-
 import * as THREE from "three";
 import { OrbitControls } from "./threejs/examples/jsm/controls/OrbitControls.js";
 import { gsap } from "./gsap/gsap-core.js";
 import { GLTFLoader } from "./threejs/examples/jsm/loaders/GLTFLoader.js";
 import { DRACOLoader } from "./threejs/examples/jsm/loaders/DRACOLoader.js";
 
-console.log('before screen');
-
 const screen = document.querySelector('#page-screen');
-
-console.log('after screen');
 
 const mobile = {
     Android: function() {
