@@ -4,7 +4,7 @@ import { gsap } from "../gsap/gsap-core.js";
 import { GLTFLoader } from "../threejs/examples/jsm/loaders/GLTFLoader.js";
 import { DRACOLoader } from "../threejs/examples/jsm/loaders/DRACOLoader.js";
 
-const screen = document.getElementById('page-screen');
+const screen = document.querySelector('#page-screen');
 
 const mobile = {
     Android: function() {
